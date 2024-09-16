@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./assets/logo.png">
+    <title>spotify clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-opt" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">home</a>
+                </div>
+                <div class="nav-opt">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">search</a>
+                </div>
+            </div>
+            <div class="lib">
+                <div class="option">
+                    <div class="lib-opt nav-opt">
+                        <i class="fa-brands fa-playstation"></i>
+                        <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>  
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+                <div class="boxes">
+                    <div class="box">
+                        <p class="box1">Create your first playlist</p>
+                        <p class="box2">It's easy, we'll help you</p>
+                        <button type="button" class="badge">Create Playlist</button>
+                       </div>
+
+                    <div class="box">
+                        <p class="box1">Let's find some podcast to follow</p>
+                        <p class="box2">We'll keep you updated on new episodes</p>
+                        <button type="button" class="badge">Browse podcast</button>
+                       </div>
+                </div>
+        </div>
+    </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="stnavi">
+                    <i class="fa-solid fa-less-than"></i>
+                    <i class="fa-solid fa-greater-than hide"></i>
+                </div>
+                <div class="stnavop">
+                    <button type="button" class="badge hide">Explore Premium</button>
+                    <button type="button" class="badge inst"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div> 
+            </div>
+
+            <h2>Recently Played</h2>
+            <div class="card-con">
+                <div class="card">
+                    <img src="assets/one.jpg" alt="top 50">
+                    <p class="card-title">Top 50-Global</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+                <div class="card-con">
+                    <div class="card">
+                        <img src="assets/obs.jpeg" alt="top 50">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/mahiye.jpeg" alt="top 50">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/tere.jpeg" alt="top 50">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assets/mahiye.jpeg" alt="top 50">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/tere.jpeg" alt="top 50">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+                </div>
+
+            <h2>Featured charts</h2>
+                <div class="card-con">
+                    <div class="card">
+                        <img src="assets/top.jpg" alt="top 50">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/ind.jpg" alt="top 50">
+                        <p class="card-title">Top Songs-India</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/warm.jpeg" alt="top 50">
+                        <p class="card-title">Top 50-Global</p>
+                        <p class="card-info">Your daily update of the most played...</p>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+        </div>
+        <div class="mp">
+            <div class="album">
+                <img src="assets/daylight.jpeg" alt="song" style="height: 69px; margin-left: 50px;">
+                <div class="name">
+                <p class="title">daylight</p>
+                <p class="info">David Kushner</p>
+                </div>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-rectangle-list"></i>
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-caret-left"></i>
+                    <i class="fa-regular fa-circle-play" style="opacity: 1; height: 2rem; margin-top: 2rem;"></i>
+                    <i class="fa-solid fa-caret-right"></i>
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="play-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="prog-bar">
+                    <span class="tot-time">03:43</span>
+                </div>
+            </div>
+            <div class="vol">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-bars-progress"></i>
+                <i class="fa-solid fa-bookmark"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range">
+            </div>
+        </div>
+</body>
+</html>
